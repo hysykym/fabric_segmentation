@@ -4,12 +4,14 @@ Implement segmentation on knitted fabric by neural network
 ## Overview
 ### Data
 Use knitted fabric images data collected from fabric factory for this project. 
+Each image shape = (320, 400).
 There are two different patterns in fabric images. 
 One without defects is called as normal pattern. 
-The other one with two vertical lines defects is called as cutline:
+The other one with two vertical lines defects is called as cutline.
+#### Images Example
 ![data/test/img/example01.jpg](data/test/img/example01.jpg)
 ![data/test/img/example02.jpg](data/test/img/example02.jpg)
-Each image shape = (320, 400)
+
 
 ### Main Purpose
 Use neural network to divide each pixel into cutline or normal pattern.
